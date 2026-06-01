@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller 产物
+build/
+dist/
+bundle/
+*.zip
+
+# 用户本地配置（config.sample.json 才是模板，需提交）
+config.json
+
+# 运行时数据（云化版本实际写到 %LOCALAPPDATA%，这里只是保险）
+data/
+logs/
+reports/
+*.db
+*.log
+*.pid

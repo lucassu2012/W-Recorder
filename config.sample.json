@@ -1,0 +1,20 @@
+{
+  "_说明": "把本文件复制为 config.json 放到 WRecorder.exe 同目录即可生效。所有键都可省略。",
+
+  "_CLOUD_TARGET说明": "auto=自动探测所有网盘(推荐) | onedrive | nutstore(坚果云) | dropbox | googledrive | icloud | box | local(纯本地)",
+  "CLOUD_TARGET": "auto",
+  "CLOUD_SUBDIR": "W-Recorder",
+
+  "_CUSTOM_SYNC_DIR说明": "手动指定任意已被网盘同步的目录(最高优先级)。留空则自动探测。例: D:\\MySync 或 G:\\My Drive",
+  "CUSTOM_SYNC_DIR": "",
+
+  "SAMPLE_INTERVAL_SECONDS": 300,
+  "IDLE_THRESHOLD_SECONDS": 300,
+  "CALENDAR_SYNC_INTERVAL_SECONDS": 900,
+  "REPORT_REFRESH_INTERVAL_SECONDS": 300,
+  "REPORT_TOP_N_APPS": 10,
+
+  "APP_CATEGORIES": {
+    "myapp.exe": "自定义分类示例"
+  }
+}
